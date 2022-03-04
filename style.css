@@ -34,10 +34,10 @@ h2, .hero-title{
 .brand h1{
     font-size: 24px;  
 }
-.nav-items ul li{
+ul li{
     list-style-type: none;
 }
-.nav-items ul li a{  
+ul li a{  
     text-decoration: none;
 }
 .hero-title{
@@ -47,7 +47,7 @@ h2{
     font-size: 36px;
     color: #1F2937;
 }
-blockquote p{
+blockquote q{
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
@@ -55,7 +55,18 @@ blockquote p{
 }
 
 /* Box Sizing */
-h1{
+.quote{
+    padding: 86px;
+}
+.quote-author{
+    font-weight: 700;
+    text-align: right;
+}
+blockquote{
+    width: 600px;
+    margin: auto;
+}
+h1,h3, p{
     margin: 0;
 }
 .container{
@@ -67,6 +78,7 @@ nav{
 }
 .hero{
     max-height: 400px;
+    gap:36px;
 }
 .placeholder{
     height: 200px;
@@ -79,11 +91,31 @@ img{
     height: 100%;
 }
 .hero-container{
-   width: 600px;
+   width: 400px;
 }
 
 .flex{
     display: flex;
+}
+.column{
+    flex-direction: column;
+}
+.center{
+    justify-content: center;
+    align-items: center; 
+}
+.card{
+    width: 150px;
+}
+.cards-container{
+    gap: 48px;
+}
+
+.card-image img{
+    border:4px solid #3882F6; 
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
 }
 .container{
     max-width: 1200px;
@@ -119,4 +151,55 @@ header{
 
 .hero{
     justify-content: center;
+}
+
+.action{
+    gap:80px;
+    padding: 32px 80px;
+    max-width: 1000px;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.box{
+    padding: 80px;
+
+}
+
+.btn-primary{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #E5E7EB;
+    font-weight: 700;
+    width: 100px;
+    padding: 5px;
+    border:2px solid #E5E7EB;
+    border-radius: 5px;
+}
+footer{
+    padding: 40px;
+}
+footer p{
+    color: #E5E7EB;
+    text-align: center;
+}
+.btn-main{
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    font-weight: 700;
+    width: 100px;
+    padding: 9px;
+    border-radius: 5px;
+}
+.card-text, .hero-text{
+    opacity: 0.7;
+}
+.card-text{
+    text-align: center;
+    
 }
