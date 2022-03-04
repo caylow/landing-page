@@ -4,30 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <title>Landing page</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="brand">
-                <h1>Header Logo</h1>
-            </div>
-            <div class="nav-items">
-                <ul>
-                    <li><a href="#">header link one</a></li>
-                    <li><a href="#">header link two</a></li>
-                    <li><a href="#">header link three</a></li>
-                </ul>
-            </div>
-        </nav>
-        <div class="hero">
-            <div class="container">
-                <h1>This website is awesome</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, earum minima vitae quia vero corrupti dicta assumenda inventore alias error voluptates eaque aperiam temporibus repudiandae numquam atque, porro laboriosam minus</p>
-                <button><a>Sign up</a></button>
-            </div>
-            <div class="placeholder">
-                <img src="" alt="this is a placeholder for an image">
+    <header class="flex">
+        <div class="container">
+            <nav class="flex">
+                <div class="brand">
+                    <h1>Header Logo</h1>
+                </div>
+                <div class="nav-items">
+                    <ul class="flex">
+                        <li><a href="#">header link one</a></li>
+                        <li><a href="#">header link two</a></li>
+                        <li><a href="#">header link three</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="hero flex">
+                <div class="hero-container">
+                    <h1 class="hero-title">This website is awesome</h1>
+                    <p class="hero-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, earum minima vitae quia vero corrupti </p>
+                    <button><a>Sign up</a></button>
+                </div>
+                <div class="placeholder">
+                    <img src="" alt="this is a placeholder for an image">
+                </div>
             </div>
         </div>
     </header>
@@ -35,43 +41,43 @@
         <h2>Some random information.</h2>
         <div class="card">
             <div class="card-image">
-                <img src="" alt="card-1">
+                <img src="img/img1.jpg" alt="mount-fuji">
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla excepturi nemo facere, incidunt facilis minus modi veritatis tenetur minima exercitationem culpa inventore</p>
+            <p>Mount Fuji, located on the island of Honshū, is the highest mountain in Japan, standing 3,776.24 m </p>
         </div>
         <div class="card">
             <div class="card-image">
-                <img src="" alt="card-1">
+                <img src="img/img2.jpg" alt="sakura-tree">
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla excepturi nemo facere, incidunt facilis minus modi veritatis tenetur minima exercitationem culpa inventore</p>
+            <p>The cherry blossom (sakura) is Japan's unofficial national flower. It has been celebrated for many centuries and holds a prominent position in Japanese culture.</p>
         </div>
         <div class="card">
             <div class="card-image">
-                <img src="" alt="card-1">
+                <img src="img/img3.jpg" alt="fushimi-inari">
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla excepturi nemo facere, incidunt facilis minus modi veritatis tenetur minima exercitationem culpa inventore</p>
+            <p>The hike to the summit of 233m Mt. Inari-san and the pilgrimage circle around the shrines near the top is one of the most interesting short walks around Kyoto.</p>
         </div>
         <div class="card">
             <div class="card-image">
-                <img src="" alt="card-1">
+                <img src="img/img4.jpg" alt="byodoin-temple">
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla excepturi nemo facere, incidunt facilis minus modi veritatis tenetur minima exercitationem culpa inventore</p>
+            <p>The Byodo-In Temple is located at the foot of the Ko'olau Mountains in Valley of the Temples Memorial Park.</p>
         </div>
     </div> 
     <div class="container bg-gray">
         <blockquote>
-            <p>This an inspiring quote</p>
+            <p>Japan never considers time together as time wasted. Rather, it is time invested.</p>
         </blockquote>
-        <p>— Someone</p>
+        <p>— Donald Richie</p>
     </div>
     <div class="container">
         <div class="action">
             <div class="col">
-                <h3>Action</h3>
-                <p>Signup</p>
+                <h3>Smooth your way with a little forward planning</h3>
+                <p class="description">Visit Japan's travel page to know more about places to go!</p>
             </div>
             <div class="col">
-                <button><a href="#">Sign up</a></button>
+                <button><a href="https://www.japan.travel/en/">Travel</a></button>
             </div>
         </div>
     </div>
